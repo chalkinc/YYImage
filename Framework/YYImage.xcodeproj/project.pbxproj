@@ -22,9 +22,8 @@
 		D9A9954A1F0564D40062698B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A995451F0564BB0062698B /* QuartzCore.framework */; };
 		D9A9954B1F0564D40062698B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A995441F0564B70062698B /* Accelerate.framework */; };
 		D9A9954C1F0564D40062698B /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A995431F0564B20062698B /* ImageIO.framework */; };
-		D9A9954D1F0564D40062698B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A995421F0564AF0062698B /* MobileCoreServices.framework */; };
-		D9A9954E1F0564D40062698B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A995411F0564A70062698B /* AssetsLibrary.framework */; };
 		D9A9954F1F0564D40062698B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A995401F05649B0062698B /* libz.tbd */; };
+		EA4ED5092518F23C00DD2255 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4ED5082518F23C00DD2255 /* CoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +47,7 @@
 		D9A995451F0564BB0062698B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D9A995461F0564BF0062698B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		D9A995471F0564C40062698B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA4ED5082518F23C00DD2255 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +60,8 @@
 				D9A9954A1F0564D40062698B /* QuartzCore.framework in Frameworks */,
 				D9A9954B1F0564D40062698B /* Accelerate.framework in Frameworks */,
 				D9A9954C1F0564D40062698B /* ImageIO.framework in Frameworks */,
-				D9A9954D1F0564D40062698B /* MobileCoreServices.framework in Frameworks */,
-				D9A9954E1F0564D40062698B /* AssetsLibrary.framework in Frameworks */,
 				D9A9954F1F0564D40062698B /* libz.tbd in Frameworks */,
+				EA4ED5092518F23C00DD2255 /* CoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +106,7 @@
 		D9A9953F1F05649B0062698B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EA4ED5082518F23C00DD2255 /* CoreServices.framework */,
 				D9A995471F0564C40062698B /* UIKit.framework */,
 				D9A995461F0564BF0062698B /* CoreFoundation.framework */,
 				D9A995451F0564BB0062698B /* QuartzCore.framework */,
